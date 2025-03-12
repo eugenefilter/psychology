@@ -26,8 +26,6 @@ export default function Main() {
           <svg width="100%" height="100%" viewBox="0 0 190 160" className="absolute bottom-0 right-0" xmlns="http://www.w3.org/2000/svg">
             <path d="M 190 0 A 190 160 0 0 1 0 160" stroke="#fff" strokeWidth="0.2" fill="transparent" />
           </svg>
-
-          <SignUp type="circle" className="z-20"/>
         </div>
 
         <div>
