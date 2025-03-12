@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  html,
+  body {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+
+    max-width: 1280px;
+  }
+
+  section {
+    @apply min-h-screen md:min-h-full;
+  }
+
+  p,
+  .paragraph {
+    @apply py-3 md:py-5 leading-relaxed;
+  }
+
+  input,
+  textarea {
+    @apply w-full md:w-4/5 m-auto rounded-2xl h-16 my-2 md:my-5 p-5 border-2 border-main-green focus:outline-main-green
+  }
+
+  textarea {
+    @apply h-32;
+  }
+
+  .section-wrapper {
+    @apply my-5 mt-16 md:mt-20;
+  }
+
+  .title {
+    @apply text-center md:text-left text-4xl md:text-5xl mb-5;
+  }
+
+  .block-rounded {
+    @apply border-0 sm:border md:rounded-xl;
+  }
+
+  .button-square {
+    @apply py-2 px-8 uppercase border rounded-3xl border-main-black text-main-black hover:text-white hover:bg-main-green hover:border-main-green transition-colors duration-500;
+  }
+
+  .button-circle {
+    @apply w-48 h-48 border rounded-full border-white text-lg hover:text-white text-main-green hover:bg-main-green bg-white transition-colors duration-500;
+  }
+
+  .service-block {
+    @apply rounded-xl auto-rows-fr justify-items-stretch grid-flow-col justify-stretch bg-main-green w-full p-5 text-center text-xl text-white;
+  }
+}

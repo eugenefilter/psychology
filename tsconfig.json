@@ -1,0 +1,29 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+<<<<<<< HEAD
+=======
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ESNext",
+    "types": [
+      "node"
+    ],
+    // Добавляем поддержку типов Node.js
+    "resolveJsonModule": true,
+    // Если вы работаете с JSON-файлами
+    "esModuleInterop": true,
+    // Упрощает импорт CommonJS модулей
+    "skipLibCheck": true
+    // Пропускает проверку типов библиотек (опционально)
+  }
+>>>>>>> Remove node_modules and add to .gitignore
+}
