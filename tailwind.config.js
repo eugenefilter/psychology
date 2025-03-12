@@ -1,11 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-<<<<<<< HEAD
     "./index.html",
-=======
-    "./index.php",
->>>>>>> Remove node_modules and add to .gitignore
+    "./src/*.{js,ts,jsx,tsx}",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {

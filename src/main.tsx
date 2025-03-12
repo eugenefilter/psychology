@@ -5,14 +5,6 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-<<<<<<< HEAD
-    <App />
-  </React.StrictMode>,
-)
-=======
     <App/>
   </React.StrictMode>,
 )
-
-console.log('Mounted DOM')
->>>>>>> Remove node_modules and add to .gitignore

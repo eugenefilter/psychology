@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-=======
 // https://vercel.com/
-
->>>>>>> Remove node_modules and add to .gitignore
 import AboutMe from './Pages/AboutMe'
 import Footer from './Pages/Footer'
 import Header from './Pages/Header'
